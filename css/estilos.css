@@ -38,7 +38,7 @@ body{
      scrollbar-width: thin;*/
 }
 
-*ESTILOS HEADER PARA ESCRITORIO*/
+/*ESTILOS HEADER PARA ESCRITORIO*/
 .header{
     background-color:#9f3647;
     color:#ffffff;
@@ -46,4 +46,12 @@ body{
     position:sticky;
     top: 0;
     z-index:10;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:40px;
+    margin-right: 40px;
+    padding: 1.5rem 0;
 }
