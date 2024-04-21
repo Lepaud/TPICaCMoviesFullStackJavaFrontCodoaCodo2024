@@ -1,11 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 *{
-    margin: 0;
+    margin: auto;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
 ul,li,ol {
     list-style: none;
+}
+a {
+    text-decoration: none;
+}
+* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(23, 23, 23);
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #9f3647;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:#9f3647;
+}
+body{
+    background-color: #181419;
+    color:white; 
+     /* scrollbar-color: #9f3647  #181419; /*nuevo
+     scrollbar-width: thin;*/
+}
+
+*ESTILOS HEADER PARA ESCRITORIO*/
+.header{
+    background-color:#9f3647;
+    color:#ffffff;
+    height: 10vh;
+    position:sticky;
+    top: 0;
+    z-index:10;
 }
