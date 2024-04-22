@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
     <title>CaCMovies</title>
@@ -20,11 +21,21 @@
                 <li class="navbar_list"><a class= "navbar_link" href="/pages/registrarse.html">Registrarse</a></li>
                 <li class="navbar_list"><a class= "navbar_link" href="/pages/iniciosesion.html" id="active">Iniciar Sesion</a></li>
             </ul>
-
         </nav>
-
     </header>
+    <main id="main" class="main">
+        <section data-aos="zoom-in"  data-aos-duration="1000" class="sectionPrincipal">
+            <h1 class="tituloPrincipal">Películas y series ilimitadas <br> en un solo lugar</h1>
+            <h2 class="subtituloPrincipal">Disfruta donde quieras. <br> Cancela en cualquier momento.</h2>
+            <a class="botonRegistrarse" href="./pages/registrarse.html">Registrate</a>
+        </section>
+    </main>
 
-    
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>
