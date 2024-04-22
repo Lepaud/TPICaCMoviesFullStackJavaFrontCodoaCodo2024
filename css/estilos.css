@@ -1,51 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-*{
-    margin: auto;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+html{
+    font-size: 62.5%;
     font-family: 'Nunito', sans-serif;
 }
+
 ul,li,ol {
     list-style: none;
 }
 a {
     text-decoration: none;
 }
-* width */
-::-webkit-scrollbar {
-    width: 10px;
-}
-  
-/* Track */
-::-webkit-scrollbar-track {
-    background: rgb(23, 23, 23);
-}
-   
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #9f3647;
-}
-  
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background:#9f3647;
-}
+
 body{
     background-color: #181419;
-    color:white; 
-     /* scrollbar-color: #9f3647  #181419; /*nuevo
-     scrollbar-width: thin;*/
 }
 
 /*ESTILOS HEADER PARA ESCRITORIO*/
 .header{
-    background-color:#9f3647;
-    color:#ffffff;
-    height: 10vh;
-    position:sticky;
-    top: 0;
-    z-index:10;
+    background-color:#9f3647;   
 }
 .navegacion{
     display: flex;
@@ -54,4 +33,50 @@ body{
     margin-left:40px;
     margin-right: 40px;
     padding: 1.5rem 0;
+    font-family: sans-serif; 
 }
+.anclaLogo{
+    margin-left: 30px;
+    font-size: 1.2rem;
+    color:aliceblue;
+    font-weight: 400;
+}
+.anclaLogo:hover{
+    animation: bamboleo 0.25s infinite;
+}
+@keyframes bamboleo {
+    0% {transform:translate (0,0)rotate(0deg);}
+    25% {transform: translate(5px,5px) rotate(5deg);}
+    50% {transform: translate(0,0) rotate(0deg);}
+    75% {transform: translate(-5px,5px) rotate(-5deg);}
+    100% {transform: translate(0,0) rotate(0deg);}
+}
+
+.nav_list{
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    gap: 40px;    
+    
+}
+.navbar_link{
+    font-size: medium;
+    color: #FFFF;
+    border-radius: 5px;
+    padding: 15px;
+    
+}
+#active{
+    background-color: black ;
+    color:white;
+}
+.navbar_link:hover {
+    background-color: #750a0a;
+}
+#active:hover{
+    background-color: #750a0a; 
+}
+
