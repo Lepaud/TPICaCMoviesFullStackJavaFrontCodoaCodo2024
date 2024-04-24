@@ -43,6 +43,7 @@ body{
 }
 
 /*ESTILOS HEADER PARA ESCRITORIO*/
+
 .header{
     background-color:#9f3647;
     color:#ffffff;
@@ -173,6 +174,7 @@ body{
     }
 } */
 
+/*  SECCION BANNER TEXTO PRINCIPAL */
     
 .sectionPrincipal{
     background:linear-gradient(to right top, #0000008a, #0000008a), url(/assets/img/banner-bg.jpg);
@@ -214,4 +216,59 @@ body{
     transform: scale(0.95);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
+
+/* SECCION DEL BUSCADOR DE PELICULAS */
+
+.buscadorPrincipal{
+    background-color: #181419;
+    color:white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tituloSection{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.buscadorPeliculas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.inputBuscador{
+    border: 2px solid white;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    height: 50px;
+    margin: 20px 0px;
+    outline: none;
+    padding: 0px 20px;
+    width: 500px;
+}
+.botonBuscador{
+    background-color:#9f3647;
+    display: inline-block;
+    color:#ffffff;
+    height: 50px;
+    margin: 20px 10px;
+    padding:0 20px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 2px solid white;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.botonBuscador:hover{
+    background-color: #9f3647;
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+
 
