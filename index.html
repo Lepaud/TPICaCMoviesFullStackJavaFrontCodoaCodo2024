@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
-    <title>CaCMovies</title>
+    <title>CaC - Movies</title>
     <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
@@ -16,10 +16,10 @@
                 <i class="fas fa-film" aria-hidden="true"></i>
                 <span>CAC-Movies</span>
             </a>
-            <ul class="nav_list">
-                <li class="navbar_list"><a class= "navbar_link" href="#tendencias">Tendencias</a></li>
-                <li class="navbar_list"><a class= "navbar_link" href="/pages/registrarse.html">Registrarse</a></li>
-                <li class="navbar_list"><a class= "navbar_link" href="/pages/iniciosesion.html" id="active">Iniciar Sesion</a></li>
+            <ul class="listaNav">
+                <li class="listaItem"><a class= "linkNav" href="#tendencias">Tendencias</a></li>
+                <li class="listaItem"><a class= "linkNav" href="/pages/registrarse.html">Registrarse</a></li>
+                <li class="listaItem"><a class= "linkNav iniciarSesion" href="/pages/iniciosesion.html">Iniciar Sesion</a></li>
             </ul>
         </nav>
     </header>
@@ -29,6 +29,14 @@
             <h2 class="subtituloPrincipal">Disfruta donde quieras. <br> Cancela en cualquier momento.</h2>
             <a class="botonRegistrarse" href="./pages/registrarse.html">Registrate</a>
         </section>
+        <section data-aos="fade-up" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" class="buscadorPrincipal">
+            <h2 class="tituloSection">¿Qué estas buscando para ver?</h2>
+            <form class="buscadorPeliculas">
+                <input class="inputBuscador" type="text" placeholder="Buscar..."/>
+                <input class="botonBuscador" type="submit" value="Buscar">
+            </form>
+        </section>
+        <hr>
     </main>
 
 
