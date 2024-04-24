@@ -351,7 +351,27 @@ a{
     }
 }
 
+/*  ESTILOS A LOS BOTONES DE ANTERIOR Y SIGUIENTE  SECCION PELICULAS TENDENCIAS */
 
+.boton{
+    border: 1px solid white;
+    box-sizing: content-box;
+    margin-top:50px;
+    margin-left:20px;
+    background-color:#9f3647;
+    color: #ffffff;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom:60px;
+    transition: transform 0.3s, box-shadow 0.3s;  /* Agregar efecto de botón presionado */
+}
+.boton:hover{
+    background-color: #9f3647;
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
 
 
 
