@@ -407,6 +407,49 @@ a{
     flex-direction: column;
     justify-content: space-between;
 }
+.imgAclamada{
+    border-radius: 5%;
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+}
+
+/*  ESTILOS DEL FOOTER  */
+
+.footer{
+    background-color:#9f3647;
+    color:#ffffff;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listaNav{
+    display: flex;
+    align-items: center;
+}
+.listaItem{
+    margin-left:20px;
+}
+.linkNav{
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.administradorPeliculas{
+    background-color: #181419;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.flechaArriba{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    cursor: pointer;
+}
+
 
 
 
