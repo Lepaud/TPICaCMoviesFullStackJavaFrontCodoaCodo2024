@@ -42,7 +42,7 @@ body{
 
 }
 
-/*ESTILOS HEADER PARA ESCRITORIO*/
+/*ESTILOS PARA EL HEADER */
 
 .header{
     background-color:#9f3647;
@@ -113,35 +113,7 @@ body{
 
 
 
-/* MEDIA QUERY PARA LOS ESTILOS DEL HEADER MOBILE Y TABLET MAX-WIDTH: 768px*/
 
- @media (max-width: 768px) {
-    .header{
-        height: initial;}
-        .navegacion{
-            margin-left:10px;
-            margin-right: 10px;
-            flex-direction: column;
-            row-gap: 20px;}
-            .anclaLogo{
-                font-size: 1.2rem;
-                font-weight:700;
-            } 
-            .listNav{
-                padding:initial;}
-
-                .listaItem{
-                        font-weight: 400;
-                        margin-right: initial;
-                        font-size: 1rem;
-                        padding: 0.2rem;}
-                    
-                    .linkNav{
-                        font-weight: 400;
-                        margin-right: initial;
-                        font-size: 1rem;
-                        padding: 0.2rem;}
-                    }
 
 
 /*  @media (max-width: 768px) {
