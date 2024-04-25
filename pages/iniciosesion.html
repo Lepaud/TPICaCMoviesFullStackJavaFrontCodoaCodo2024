@@ -3,10 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
+    <title>Login - CaCMovies</title>
+    <link rel="stylesheet" href="/css/mediaquerys.css">
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
-    Este sera el main del inicio de sesion
+    <body class="bodyRegistrarse">
+        <header class="headerRegistrarse">
+            <a class="anclaLogo" href="../index.html">
+                <i class="fas fa-film" aria-hidden="true"></i>
+                <span>CAC-Movies</span>
+            </a>
+           
+        </header>
+        <main  id="main" class="main">
+          <section  data-aos="zoom-in"  data-aos-duration="1000" class="seccionRegistrarse">
+            <form  action="" method="post">
+                <h2 class="tituloRegistrarse">Iniciar Sesión</h2>
+             
+                <div>
+                    <input type="email" placeholder="Email" required id="email" name="email">
+                </div>
+                <div>
+                    <input type="password" placeholder="Contraseña" required id="password" name="password">
+                </div>
+              
+              
+                <div>
+                    <input  class="botonRegistro" type="submit" value="Iniciar Sesión">
+                </div>
+               
+                <div > 
+                   
+                    <a id="ayuda" class="ayuda" href="registrarse.html">Registrarse</a>
+                </div>
+            </form>
+          </section>
+    
+        </main>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
+    </body>
     
 </body>
 </html>
