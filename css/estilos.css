@@ -422,6 +422,15 @@ a{
     cursor: pointer;
 }
 
+/*  ESTILOS PARA EL FORMULARIO DE REGISTRO  */
+
+.bodyRegistrarse{
+    height: 100vh;
+    background:linear-gradient(to right top, #24242473,#24242473),url("../assets/img/bg-register.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 
 
 
