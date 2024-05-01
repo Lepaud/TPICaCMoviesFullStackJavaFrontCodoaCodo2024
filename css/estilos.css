@@ -395,7 +395,7 @@ a{
 /*  ESTILOS PARA EL FORMULARIO DE REGISTRO  */
 
 .bodyRegistrarse{
-    height: 90vh;
+    height: 100vh;
     background:linear-gradient(to right top, #24242473,#24242473),url("../assets/img/bg-register.jpg");
     background-size: cover;
     background-position: center;
@@ -432,7 +432,7 @@ a{
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 110vh;
     font-size:1.2rem;
 }
 .tituloRegistrarse{
