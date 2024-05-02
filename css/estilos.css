@@ -638,6 +638,17 @@ h2{
 
 /*  Main de la Pagina Ayuda.html  */
 
+.ayudarte{
+    padding-top:50px;
+    background:linear-gradient(to right top,#24242473,#24242473 ),url("/assets/img/bg-register.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    text-align: center;
+    padding: 0.5rem;
+    
+}
+
  .form-ayuda {
      background-color:#1a1717;
      padding: 50px;
