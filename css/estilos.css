@@ -116,7 +116,7 @@ body{
 /*  SECCION BANNER TEXTO PRINCIPAL */
     
 .sectionPrincipal{
-    background:linear-gradient(to right top, #0000008a, #0000008a), url(assets/img/download.jpg);
+    background:linear-gradient(to right top, #0000008a, #0000008a), url(https://lepaud.github.io/TPICaCMoviesFullStackJavaFrontCodoaCodo2024//assets/img/download.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
