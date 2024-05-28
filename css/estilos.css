@@ -116,7 +116,7 @@ body{
 /*  SECCION BANNER TEXTO PRINCIPAL */
     
 .sectionPrincipal{
-    background:linear-gradient(to right top, #0000008a, #0000008a), url(/assets/img/download.jpg);
+    background:linear-gradient(to right top, #0000008a, #0000008a), url(assets/img/download.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -396,7 +396,7 @@ a{
 
 .bodyRegistrarse{
     height: 100vh;
-    background:linear-gradient(to right top, #24242473,#24242473),url("../assets/img/bg-register.jpg");
+    background:linear-gradient(to right top, #24242473,#24242473),url("assets/img/bg-register.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -518,7 +518,7 @@ input:not(.check,.botonRegistro),select{
     
     .detalle{
         padding-top:50px;
-        background:linear-gradient(to right top, #6d6969a7, #6d6969a7),url("../assets/img/mario-bg.jpg");
+        background:linear-gradient(to right top, #6d6969a7, #6d6969a7),url("assets/img/mario-bg.jpg");
         background-size: cover;
         background-position: center;
         height: 70vh;
@@ -597,7 +597,7 @@ input:not(.check,.botonRegistro),select{
 .content-card{
     padding-top: 50px;
     background-image: linear-gradient(to right top, #0000008a, #0000008a),
-    url(/assets/img/peli_1.jpg);
+    url(assets/img/peli_1.jpg);
     background-size:cover;
     background-position: center;
     color:#ffffff;
@@ -607,7 +607,7 @@ input:not(.check,.botonRegistro),select{
 .content-card-2{
     padding-top: 50px;
     background-image: linear-gradient(to right top, #0000008a, #0000008a),
-    url(/assets/img/peli_2.jpg);
+    url(assets/img/peli_2.jpg);
     background-size:cover;
     background-position: center;
     color:#ffffff;
