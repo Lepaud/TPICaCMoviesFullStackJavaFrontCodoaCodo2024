@@ -432,7 +432,7 @@ a{
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    height: 110vh;
+    height: 130vh;
     font-size:1.2rem;
 }
 .tituloRegistrarse{
@@ -445,6 +445,17 @@ form{
     width: 100%;
     padding:40px;
 }
+.error input:not(.check,.boton),.error select{
+    border: 1px solid #ff0000;
+}
+.error-text{
+    color: #ff0000;
+    font-size: 0.8rem;
+    margin-top:0px;
+    margin-bottom: 10px;
+} 
+
+
 input:not(.check,.botonRegistro),select{
     width: 100%;
     margin-bottom: 10px;
@@ -479,6 +490,7 @@ input:not(.check,.botonRegistro),select{
     font-size: 0.8rem;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
@@ -503,6 +515,28 @@ input:not(.check,.botonRegistro),select{
 .term-title{
     padding: 20px;
 }
+   
+
+
+/* SECCION LOGUEARSE  */
+
+.seccionLoguearse{
+    background-color:rgb(42, 42, 42);
+    width: 40%;
+    margin:30px auto;
+    border-radius: 5px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size:1.2rem;
+}
+
+
+
+
 @keyframes tilt-n-move-shaking {
     0% { transform: translate(0, 0) rotate(0deg); }
     25% { transform: translate(5px, 5px) rotate(5deg); }
@@ -510,6 +544,7 @@ input:not(.check,.botonRegistro),select{
     75% { transform: translate(-5px, 5px) rotate(-5deg); }
     100% { transform: translate(0, 0) rotate(0deg); }
 }
+
         
 
 
